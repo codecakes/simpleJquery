@@ -13,7 +13,8 @@ Good luck!
 */
 
 $(document).ready(function loadpup() {
-	var img = $(".article-item").find("img")[0];
-	img.src = "http://ecx.images-amazon.com/images/I/81C0jL9aQ-L._SY355_.jpg";
+	//var img = $(".article-item").find("img")[0];
+	//img.src = "http://ecx.images-amazon.com/images/I/81C0jL9aQ-L._SY355_.jpg";
+	$(".article-item").find("img").attr("src", "http://ecx.images-amazon.com/images/I/81C0jL9aQ-L._SY355_.jpg");
 }
 );
